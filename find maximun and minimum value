@@ -1,0 +1,6 @@
+List_X = [2, 8, 10]
+List_Y = [5, -4 ,12]
+maximum_values = [max(x,y) for x,y in zip(List_X,List_Y)]
+minimum_values = [min(x,y) for x,y in zip(List_X,List_Y)]
+print("Maximum Values:", maximum_values)
+print("Minimum Values:", minimum_values)
